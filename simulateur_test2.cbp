@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="simulateur_test2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/simulateur_test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/include" />
+					<Add directory="../simulation_test5/imgui-master/imgui-1.92.3/backends" />
+					<Add directory="../simulation_test5/imgui-master/imgui-1.92.3" />
+					<Add directory="../../../dependances/include" />
+					<Add directory="../../../dependances/include/glad" />
+					<Add directory="../../../dependances/glew-2.2.0/include" />
+					<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include" />
+					<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include/GLFW" />
+					<Add directory="../../../dependances/glm/glm" />
+					<Add directory="../../../dependances/glm/glm/gtc" />
+					<Add directory="../../../dependances/glm/glm/gtx" />
+					<Add directory="../../../dependances/glm" />
+					<Add directory="imgui-master" />
+					<Add directory="imgui-master/imgui-1.92.3" />
+					<Add directory="imgui-master/imgui-1.92.3/backends/sdlgpu3" />
+					<Add directory="imgui-master/imgui-1.92.3/backends/vulkan" />
+					<Add directory="imgui-master/imgui-1.92.3/backends" />
+					<Add directory="../../../mingw64/mingw64/include" />
+					<Add directory="../../../mingw64/mingw64/x86_64-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add library="glfw3" />
+					<Add library="mingw32" />
+					<Add library="setupapi" />
+					<Add library="ole32" />
+					<Add library="uuid" />
+					<Add library="imm32" />
+					<Add library="gdi32" />
+					<Add library="version" />
+					<Add library="../../../dependances/glfw-3.4.bin.WIN64/lib-mingw-w64/libglfw3.a" />
+					<Add library="user32" />
+					<Add library="shell32" />
+					<Add library="opengl32" />
+					<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/lib" />
+					<Add directory="../../../dependances/glew-2.2.0/lib" />
+					<Add directory="../../../dependances/glfw-3.4.bin.WIN64/lib-mingw-w64" />
+					<Add directory="../../../dependances/glm/glm" />
+					<Add directory="../../../dependances/glm" />
+					<Add directory="../../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/lib" />
+					<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include/GLFW" />
+					<Add directory="../../../mingw64/mingw64/lib" />
+					<Add directory="../../../mingw64/mingw64/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/simulateur_test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/include" />
+			<Add directory="../simulation_test5/imgui-master/imgui-1.92.3/backends" />
+			<Add directory="../simulation_test5/imgui-master/imgui-1.92.3" />
+			<Add directory="../../../dependances/include" />
+			<Add directory="../../../dependances/include/glad" />
+			<Add directory="../../../dependances/glew-2.2.0/include" />
+			<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include" />
+			<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include/GLFW" />
+			<Add directory="../../../dependances/glm/glm" />
+			<Add directory="../../../dependances/glm/glm/gtc" />
+			<Add directory="../../../dependances/glm/glm/gtx" />
+			<Add directory="../../../dependances/glm" />
+			<Add directory="imgui-master" />
+			<Add directory="imgui-master/imgui-1.92.3" />
+			<Add directory="imgui-master/imgui-1.92.3/backends/sdlgpu3" />
+			<Add directory="imgui-master/imgui-1.92.3/backends/vulkan" />
+			<Add directory="imgui-master/imgui-1.92.3/backends" />
+			<Add directory="../../../mingw64/mingw64/include" />
+			<Add directory="../../../mingw64/mingw64/x86_64-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glfw3" />
+			<Add library="mingw32" />
+			<Add library="setupapi" />
+			<Add library="ole32" />
+			<Add library="uuid" />
+			<Add library="imm32" />
+			<Add library="gdi32" />
+			<Add library="version" />
+			<Add library="../../../dependances/glfw-3.4.bin.WIN64/lib-mingw-w64/libglfw3.a" />
+			<Add library="user32" />
+			<Add library="shell32" />
+			<Add library="opengl32" />
+			<Add directory="../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/lib" />
+			<Add directory="../../../dependances/glew-2.2.0/lib" />
+			<Add directory="../../../dependances/glfw-3.4.bin.WIN64/lib-mingw-w64" />
+			<Add directory="../../../dependances/glm/glm" />
+			<Add directory="../../../dependances/glm" />
+			<Add directory="../../../SDL2/SDL2-2.32.10/x86_64-w64-mingw32/lib" />
+			<Add directory="../../../dependances/glfw-3.4.bin.WIN64/include/GLFW" />
+			<Add directory="../../../mingw64/mingw64/lib" />
+			<Add directory="../../../mingw64/mingw64/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="../../../dependances/glm/glm/glm.hpp" />
+		<Unit filename="../../../dependances/include/glad/glad.h" />
+		<Unit filename="../../../dependances/src/glad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_glfw.cpp" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_glfw.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_glut.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_metal.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_opengl2.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_opengl3.cpp" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_opengl3.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_opengl3_loader.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdl2.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdl3.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdlgpu3.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdlgpu3_shaders.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdlrenderer2.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_sdlrenderer3.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_vulkan.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_wgpu.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/backends/imgui_impl_win32.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/imgui.cpp" />
+		<Unit filename="imgui-master/imgui-1.92.3/imgui.h" />
+		<Unit filename="imgui-master/imgui-1.92.3/imgui_draw.cpp" />
+		<Unit filename="imgui-master/imgui-1.92.3/imgui_tables.cpp" />
+		<Unit filename="imgui-master/imgui-1.92.3/imgui_widgets.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
